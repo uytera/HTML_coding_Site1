@@ -1,0 +1,1 @@
+{"version":3,"sources":["body\\news_form\\news_form.scss"],"names":[],"mappings":"AACI;EACI;EACA","file":"news_form.92032207.css","sourceRoot":"..\\src","sourcesContent":[".news_form{\r\n    input[type=\"text\"]{\r\n        width: 738px;\r\n        height: 100px;\r\n    }\r\n}"]}
