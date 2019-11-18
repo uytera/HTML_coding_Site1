@@ -1,0 +1,30 @@
+@import "body/news_form/_news_form";
+@import "header/header";
+
+header {
+    background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 74px;
+}
