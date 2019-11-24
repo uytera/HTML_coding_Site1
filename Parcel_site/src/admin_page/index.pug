@@ -1,0 +1,18 @@
+doctype.html
+html
+    head
+        meta(charset='utf-8')
+        title admin
+        link(rel="stylesheet" href="index.scss") 
+        script(src="../util/JQuerry/jquery-3.4.1.js") 
+    body
+    header
+        include ../ui_kit/header/header.pug
+    .main
+        .form
+            h1 Добавить новость
+            div.description Введите текст новости, а также приложите изображение (размер: 270х270px)
+            include body/news_form/news-form.pug
+    footer
+        +footer-container("admin-page-footer")
+    script(src="body/news_form/news-form.js") 

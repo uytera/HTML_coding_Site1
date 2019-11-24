@@ -1,0 +1,12 @@
+mixin footer-container(modificator)
+    include footer_elements/footer-box/footer-text-box/footer-box-text.pug
+    include ../icons/company_logo/company-logo.pug
+    div(class="footer-container " + modificator)
+        div.footer-box-img
+            +company-logo("") 
+        +footer-box-text("standart-footer")
+        +footer-box-text("standart-footer","О компании", "Вакансии","Клиенту", "Франчайзинг")
+        +footer-box-text("standart-footer","Доставка из Китая", "Все услуги","Акции")
+        +footer-box-text("standart-footer")
+        +footer-box-text("light-footer","manager@uexpress.ru", "115221, г. Челябинск, ул. Северная, д. 29-в","Мы работаем по 24 часа 5 дней в неделю")
+    </div>

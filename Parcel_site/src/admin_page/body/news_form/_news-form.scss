@@ -1,0 +1,68 @@
+@import "../../../ui_kit/buttons/default-button";
+.news-form{
+    textarea{
+        width: 770px;
+        height: 144px;
+        border: 1px solid #23415E;
+        border-radius: 6px;
+        padding: 22px 16px;
+        resize: none;
+    }
+
+    input[type="file"]{
+        display: none;
+    }
+
+    #admin-submit-button{
+        display: none;
+    }
+
+    .admin-form-submit-button{
+        background: #E5E31F;
+        color: #2A4F71;
+        width: 240px;
+        margin-top: 108px;
+    }
+
+    .image-select-label{
+        margin-top: 30px;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        
+        .image-select-label__image-path{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: black;
+            margin-right: 10px;
+        }
+        .image-select-label__icon{
+            height: 21px;
+        }
+        .image-select-label__avatar{
+            margin-left: 70px;
+            margin-right: 35px;
+        }
+        .image-select-label__label{
+            margin-left: 16px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color:#2A496B;
+        }
+        .image-select-label__cancel{
+            width: 18px;
+            height: 18px;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        .hidden-form-elements{
+            display: none;
+            vertical-align: middle;
+            align-items: center;
+        }
+    }
+}

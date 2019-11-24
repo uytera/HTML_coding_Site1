@@ -1,0 +1,16 @@
+include ../../../ui_kit/buttons/default-button.pug
+form.news-form#news-from-id(action="")
+    textarea(name="news-text-area", cols="30", rows="10", placeholder = "Введите информацию в текстовое поле")
+    br
+    input#image-select(type="file")
+    .image-select-label
+        img.image-select-label__icon(src="https://c.radikal.ru/c37/1911/94/2797f15a58ac.png")
+        label.image-select-label__label(for="image-select") + Добавить изображение
+        .hidden-form-elements
+            img.image-select-label__avatar(src="" width=34 height=34)
+            p.image-select-label__image-path sdfdsfsdfdsfsdf
+            button.image-select-label__cancel
+                img(src="https://c.radikal.ru/c12/1911/3e/a317b45bdbcd.png" width=18 height=18)
+    input#admin-submit-button(type="submit")
+    label(for="admin-submit-button")
+        +default-button("admin-form-submit-button", "Применить")

@@ -1,0 +1,38 @@
+@import "footer_elements/footer-box/footer-text-box/footer-box-text";
+@import "../icons/company_logo/company-logo";
+
+footer {
+    position: relative;
+    padding-top: 89px;
+    padding-bottom: 89px;
+    bottom: 0px;
+    width: 100%;
+    background: #23415E; 
+}
+
+.footer-container {
+    position: relative;
+    width: 98%;
+    margin: 0px 1%;
+    text-align: center;
+}
+
+.footer-box-img{
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.light-footer {
+    line-height: 19px;
+    color: #A9C5E0;
+
+    ul{
+        li:nth-child(1){
+            margin-top: 0px;
+        }
+        li{
+            margin-top: 20px;
+        }     
+    }
+}

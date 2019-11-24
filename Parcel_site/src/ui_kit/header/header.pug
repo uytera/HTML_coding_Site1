@@ -1,0 +1,13 @@
+include ../buttons/default-button.pug
+include ../icons/company_logo/company-logo.pug
+div.header-container
+    div.header-element
+        +company-logo("header-img") 
+        div.header-separator |
+        div.header-text Курьерская служба доставки
+    div.header-element
+        div.header-text
+          img(src="https://i.ibb.co/dLkqVW9/Phone.png", width=14)
+          | &emsp; 8 (909) 023-12-51
+        +default-button("header-button", "Вход")
+        

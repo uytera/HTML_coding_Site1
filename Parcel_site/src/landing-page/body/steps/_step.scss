@@ -1,0 +1,25 @@
+.step {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px;
+    width: 370px;
+    display: inline-block;
+    text-align: center;
+    word-wrap: break-word;
+    
+    .step__content-txt {
+        font-size: 15px;
+        line-height: 19px;
+        font-weight: normal;
+        margin-top: 24px;
+        width: inherit;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+        margin-bottom: 36px;
+    }
+}

@@ -1,0 +1,27 @@
+doctype.html
+html
+    head
+        meta(charset='utf-8')
+        title landing
+        link(rel="stylesheet" href="index.scss")
+        script(src="../util/JQuerry/jquery-3.4.1.js")
+        script(src="../util/JQuerry/JQuerryColour.js")
+        include body/steps/step.pug
+        include ../ui_kit/footer/footer-container.pug
+        include body/registration-form/registration-form.pug
+    body
+    +registration-form("landing-page-reg-form")
+    header
+        include ../ui_kit/header/header.pug
+        include body/slider/slider.pug     
+    .main
+        .main-header 5 шагов к заявке
+        .steps-container
+            +step("","https://d.radikal.ru/d37/1909/d8/7087907e8fe7.png", "Рассчитать стоимость", "ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.")
+            +step("", "https://c.radikal.ru/c07/1909/71/10630124af48.png", "Вызвать курьера", "ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.")
+            +step("", "https://c.radikal.ru/c21/1909/d6/d0b82ba7225b.png", "Оплатить услуги", "ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.")
+            +step("", "https://d.radikal.ru/d16/1909/fa/7c6a2c917a88.png", "Заключить договор", "ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.")
+            +step("", "https://c.radikal.ru/c08/1909/6f/51bd539affb7.png", "Расчетать стоимость", "ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.")
+    footer
+        +footer-container("landing-page-footer")
+    script(src="body/slider/slider.js")

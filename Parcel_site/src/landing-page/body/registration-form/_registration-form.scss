@@ -1,0 +1,75 @@
+@import "../../../ui_kit/buttons/default-button";
+.reg-background{
+    position: fixed;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+}
+.reg-form{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 560px;
+    height: 470px;
+    background: #FFFFFF;
+    border-radius: 6px;        
+    z-index: 100;
+
+    .reg-form__header{
+        margin-top: 64px;
+        margin-bottom: 18px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 46px;
+        color: #000000;
+        width: 430px;
+    }
+
+    .reg-form__description{
+        margin: 0 0;
+        width: 430px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .reg-form__login{
+        padding: 16px;
+        width: 430px;
+        height: 48px;
+        border: 1px solid #23415E;
+        border-radius: 6px;
+        margin-top: 48px;
+    }
+
+    .reg-form__password{
+        padding: 16px;
+        width: 430px;
+        height: 48px;
+        border: 1px solid #23415E;
+        border-radius: 6px;
+        margin-top: 8px;
+        margin-bottom: 50px;
+    }
+
+    #reg-submit{
+        display: none;
+    }
+
+    .reg-button{
+        background: #E5E31F;
+        width: 430px;
+        color: #2A4F71;
+    }
+}

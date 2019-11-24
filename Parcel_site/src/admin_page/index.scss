@@ -1,0 +1,37 @@
+@import "body/news_form/news-form";
+@import "../ui_kit/header/header";
+@import "../ui_kit/footer/footer-container";
+
+body{
+    margin: 0 0;
+}
+
+header {
+    background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.main{
+    margin-left: 135px;
+    margin-top: 174px;
+    margin-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 74px;
+}

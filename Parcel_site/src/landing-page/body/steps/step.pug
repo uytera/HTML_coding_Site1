@@ -1,0 +1,5 @@
+mixin step(modificator, img_src, header_text, content_txt)
+    div(class="step " + modificator)
+        img(src=img_src width="54")
+        p.step__header= header_text
+        p.step__content-txt= content_txt

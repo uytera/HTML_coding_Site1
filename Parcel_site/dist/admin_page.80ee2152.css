@@ -1,0 +1,234 @@
+.default-button {
+  line-height: 48px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 18px;
+  width: 170px;
+  height: 52px;
+  color: #E5E31F;
+  border: 1px solid #E5E31F;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.news-form textarea {
+  width: 770px;
+  height: 144px;
+  border: 1px solid #23415E;
+  border-radius: 6px;
+  padding: 22px 16px;
+  resize: none;
+}
+.news-form input[type=file] {
+  display: none;
+}
+.news-form #admin-submit-button {
+  display: none;
+}
+.news-form .admin-form-submit-button {
+  background: #E5E31F;
+  color: #2A4F71;
+  width: 240px;
+  margin-top: 108px;
+}
+.news-form .image-select-label {
+  margin-top: 30px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.news-form .image-select-label .image-select-label__image-path {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  margin-right: 10px;
+}
+.news-form .image-select-label .image-select-label__icon {
+  height: 21px;
+}
+.news-form .image-select-label .image-select-label__avatar {
+  margin-left: 70px;
+  margin-right: 35px;
+}
+.news-form .image-select-label .image-select-label__label {
+  margin-left: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A496B;
+}
+.news-form .image-select-label .image-select-label__cancel {
+  width: 18px;
+  height: 18px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.news-form .image-select-label .hidden-form-elements {
+  display: none;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.default-button {
+  line-height: 48px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 18px;
+  width: 170px;
+  height: 52px;
+  color: #E5E31F;
+  border: 1px solid #E5E31F;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.company-logo :nth-child(1) {
+  margin-right: 4px;
+}
+
+.header-container {
+  width: 98%;
+  margin: 27px 1%;
+  height: 52px;
+  position: relative;
+  text-align: center;
+}
+.header-container * {
+  display: inline-block;
+}
+.header-container img {
+  vertical-align: middle;
+  margin: 0px 0px;
+}
+
+.header-img {
+  vertical-align: middle;
+  margin: 0px 14px;
+}
+
+.header-element {
+  width: 49%;
+}
+
+.header-separator {
+  vertical-align: middle;
+  margin-left: 7%;
+  margin-right: 2%;
+  font-family: Proxima Nova;
+  font-size: 13px;
+  color: #A9C5E0;
+}
+
+.header-text {
+  vertical-align: middle;
+  text-align: left;
+  font-family: Proxima Nova;
+  font-size: 13px;
+  line-height: 21px;
+  width: 170px;
+  margin: 0px 14px;
+  color: #A9C5E0;
+}
+
+.footer-box-text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Proxima Nova;
+  font-size: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #FFFFFF;
+  width: 170px;
+  text-align: left;
+  word-wrap: break-word;
+}
+.footer-box-text ul {
+  list-style: none;
+  padding: 0 0;
+  margin: 0 0;
+}
+.footer-box-text ul li:nth-child(1) {
+  margin-top: 0px;
+}
+.footer-box-text ul li {
+  margin-top: 20px;
+}
+
+.company-logo :nth-child(1) {
+  margin-right: 4px;
+}
+
+footer {
+  position: relative;
+  padding-top: 89px;
+  padding-bottom: 89px;
+  bottom: 0px;
+  width: 100%;
+  background: #23415E;
+}
+
+.footer-container {
+  position: relative;
+  width: 98%;
+  margin: 0px 1%;
+  text-align: center;
+}
+
+.footer-box-img {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.light-footer {
+  line-height: 19px;
+  color: #A9C5E0;
+}
+.light-footer ul li:nth-child(1) {
+  margin-top: 0px;
+}
+.light-footer ul li {
+  margin-top: 20px;
+}
+
+body {
+  margin: 0 0;
+}
+
+header {
+  background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+}
+
+.main {
+  margin-left: 135px;
+  margin-top: 174px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 74px;
+}
+
+/*# sourceMappingURL=/admin_page.80ee2152.css.map */

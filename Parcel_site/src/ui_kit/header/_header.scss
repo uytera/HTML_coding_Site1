@@ -1,0 +1,48 @@
+@import "../buttons/default-button";
+@import "../icons/company_logo/company-logo";
+
+.header-container {
+    width: 98%;
+    margin: 27px 1%;
+    height: 52px;
+    position: relative;
+    text-align: center;
+
+    * {
+        display: inline-block;
+    }
+
+    img {
+        vertical-align: middle;
+        margin: 0px 0px;
+    }
+}
+
+.header-img {
+    vertical-align: middle;
+    margin: 0px 14px;
+}
+
+.header-element {
+    width: 49%;
+}
+
+.header-separator {
+    vertical-align: middle;
+    margin-left: 7%;
+    margin-right: 2%;
+    font-family: Proxima Nova;
+    font-size: 13px;
+    color: #A9C5E0;
+}
+
+.header-text {
+    vertical-align: middle;
+    text-align: left;
+    font-family: Proxima Nova;
+    font-size: 13px;
+    line-height: 21px;
+    width: 170px;
+    margin: 0px 14px;
+    color: #A9C5E0;
+}

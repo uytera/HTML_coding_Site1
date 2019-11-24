@@ -1,0 +1,5 @@
+mixin footer-box-text(modificator, ...rows)
+    div(class="footer-box-text " + modificator)
+        ul
+            each row in rows
+                li= row

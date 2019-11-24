@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.pug --open",
-    "build": "parcel build src/index.pug -d docs --public-url ./"
+    "start": "parcel src/landing-page/index.pug --open",
+    "build": "parcel build src/landing-page/index.pug -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
   "devDependencies": {
     "pug": "^2.0.4",
     "sass": "^1.23.6"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

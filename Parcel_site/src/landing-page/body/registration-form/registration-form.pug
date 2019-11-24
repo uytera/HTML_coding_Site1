@@ -1,0 +1,11 @@
+mixin registration-form(modificator)
+    include ../../../ui_kit/buttons/default-button.pug
+    div.reg-background
+    div.reg-form
+        p.reg-form__header Авторизация
+        p.reg-form__description Введите логин и пароль, чтобы войти в личный кабинет
+        input.reg-form__login(type="text" value="Логин")
+        input.reg-form__password(type="text" value="Пароль")
+        input#reg-submit(type="submit")
+        label(for="reg-submit")
+            +default-button("reg-button", "Войти")
