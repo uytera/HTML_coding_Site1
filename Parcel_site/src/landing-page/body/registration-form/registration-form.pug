@@ -1,11 +1,14 @@
 mixin registration-form(modificator)
-    include ../../../ui_kit/buttons/default-button.pug
-    div.reg-background
-    div.reg-form
-        p.reg-form__header Авторизация
-        p.reg-form__description Введите логин и пароль, чтобы войти в личный кабинет
-        input.reg-form__login(type="text" value="Логин")
-        input.reg-form__password(type="text" value="Пароль")
-        input#reg-submit(type="submit")
-        label(for="reg-submit")
-            +default-button("reg-button", "Войти")
+    div.reg-consturction
+        include ../../../ui_kit/buttons/default-button.pug
+        div.reg-background
+        form.reg-form(action="../admin_page/index.html")
+            p.reg-form__header Авторизация
+            p.reg-form__description Введите логин и пароль, чтобы войти в личный кабинет
+            button.reg-form__cancel(type="button")
+                img(src="https://c.radikal.ru/c12/1911/3e/a317b45bdbcd.png" width=26 height=26)
+            input.reg-form__login(type="text" placeholder="Логин")
+            input.reg-form__password(type="text" placeholder="Пароль")
+            input#reg-submit(type="submit")
+            label(for="reg-submit")
+                +default-button("reg-button", "Войти")

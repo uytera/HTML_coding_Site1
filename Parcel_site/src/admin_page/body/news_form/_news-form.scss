@@ -1,5 +1,13 @@
 @import "../../../ui_kit/buttons/default-button";
 .news-form{
+    ::-webkit-input-placeholder{
+        color: #D0C9D6;
+    }
+
+    .alert::-webkit-input-placeholder{
+        color: red;
+    }
+
     textarea{
         width: 770px;
         height: 144px;
@@ -59,10 +67,20 @@
             background: none;
         }
 
-        .hidden-form-elements{
+        .image-select-label__hidden-form-elements{
             display: none;
             vertical-align: middle;
             align-items: center;
+        }
+
+        .image-select-label__hidden-alert{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FF2323;
+            margin-left: 170px;
+            display: none;
         }
     }
 }

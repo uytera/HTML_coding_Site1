@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/landing-page/index.pug --open",
-    "build": "parcel build src/landing-page/index.pug -d docs --public-url ./"
+    "start": "parcel src/landing-page/index.pug src/admin_page/index.pug --open",
+    "build": "parcel build src/landing-page/index.pug src/admin_page/index.pug -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "pug": "^2.0.4",
     "sass": "^1.23.6"
   },

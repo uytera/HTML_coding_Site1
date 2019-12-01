@@ -1,4 +1,8 @@
 @import "../../../ui_kit/buttons/default-button";
+
+.reg-consturction{
+    display: none;
+}
 .reg-background{
     position: fixed;
     display: inline-block;
@@ -8,6 +12,14 @@
     z-index: 90;
 }
 .reg-form{
+    ::-webkit-input-placeholder{
+        color: #D0C9D6;
+    }
+
+    .alert::-webkit-input-placeholder{
+        color: red;
+    }
+
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -71,5 +83,16 @@
         background: #E5E31F;
         width: 430px;
         color: #2A4F71;
+    }
+
+    .reg-form__cancel{
+        position: absolute;
+        top: 30px;
+        left: 504px;
+        width: 18px;
+        height: 18px;
+        border: none;
+        outline: none;
+        background: none;
     }
 }

@@ -288,6 +288,10 @@ footer {
   border-radius: 10px;
 }
 
+.reg-consturction {
+  display: none;
+}
+
 .reg-background {
   position: fixed;
   display: inline-block;
@@ -312,6 +316,12 @@ footer {
   background: #FFFFFF;
   border-radius: 6px;
   z-index: 100;
+}
+.reg-form ::-webkit-input-placeholder {
+  color: #D0C9D6;
+}
+.reg-form .alert::-webkit-input-placeholder {
+  color: red;
 }
 .reg-form .reg-form__header {
   margin-top: 64px;
@@ -356,6 +366,16 @@ footer {
   background: #E5E31F;
   width: 430px;
   color: #2A4F71;
+}
+.reg-form .reg-form__cancel {
+  position: absolute;
+  top: 30px;
+  left: 504px;
+  width: 18px;
+  height: 18px;
+  border: none;
+  outline: none;
+  background: none;
 }
 
 body {
