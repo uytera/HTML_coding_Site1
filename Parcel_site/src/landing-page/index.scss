@@ -3,6 +3,10 @@
 @import "body/steps/step";
 @import "../ui_kit/footer/footer-container";
 @import "body/registration-form/registration-form";
+@import "../ui_kit/fonts/Proxima_Nova/proxima";
+*{
+    font-family: Proxima Nova;
+}
 
 body{
     margin: 0 0;

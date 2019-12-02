@@ -1,6 +1,10 @@
 @import "body/news_form/news-form";
 @import "../ui_kit/header/header";
 @import "../ui_kit/footer/footer-container";
+@import "../ui_kit/fonts/Proxima_Nova/proxima";
+*{
+    font-family: Proxima Nova;
+}
 
 body{
     margin: 0 0;
