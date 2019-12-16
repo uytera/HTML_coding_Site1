@@ -4,6 +4,7 @@
 @import "../ui_kit/footer/footer-container";
 @import "body/registration-form/registration-form";
 @import "../ui_kit/fonts/Proxima_Nova/proxima";
+@include font("../ui_kit/fonts/Proxima_Nova/");
 *{
     font-family: Proxima Nova;
 }

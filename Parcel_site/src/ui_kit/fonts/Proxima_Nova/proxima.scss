@@ -1,0 +1,15 @@
+@mixin font($path) {
+    @font-face {
+    font-family: 'Proxima Nova';
+    src: url($path + 'ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url($path + 'ProximaNova-Regular.woff') format('woff'), url($path + 'ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Proxima Nova';
+        src: url($path + 'ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url($path + 'ProximaNova-Bold.woff') format('woff'), url($path + 'ProximaNova-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+}

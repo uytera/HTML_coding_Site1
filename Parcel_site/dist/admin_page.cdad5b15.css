@@ -212,6 +212,22 @@ footer {
   margin-top: 20px;
 }
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/ProximaNova-Regular.1d9e1957.eot?#iefix") format("embedded-opentype"), url("/ProximaNova-Regular.7ddb9a18.woff") format("woff"), url("/ProximaNova-Regular.4c30ac11.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/ProximaNova-Bold.2322e7e0.eot?#iefix") format("embedded-opentype"), url("/ProximaNova-Bold.91b3c647.woff") format("woff"), url("/ProximaNova-Bold.111a906c.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  font-family: Proxima Nova;
+}
+
 body {
   margin: 0 0;
 }

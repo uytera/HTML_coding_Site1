@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Regular.eot":[["ProximaNova-Regular.1d9e1957.eot","ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.eot"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.eot"],"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Regular.woff":[["ProximaNova-Regular.7ddb9a18.woff","ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.woff"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.woff"],"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Regular.ttf":[["ProximaNova-Regular.4c30ac11.ttf","ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.ttf"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Regular.ttf"],"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Bold.eot":[["ProximaNova-Bold.2322e7e0.eot","ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.eot"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.eot"],"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Bold.woff":[["ProximaNova-Bold.91b3c647.woff","ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.woff"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.woff"],"./..\\ui_kit\\fonts\\Proxima_Nova\\ProximaNova-Bold.ttf":[["ProximaNova-Bold.111a906c.ttf","ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.ttf"],"ui_kit/fonts/Proxima_Nova/ProximaNova-Bold.ttf"],"_css_loader":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50016" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54825" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
