@@ -3,7 +3,7 @@ var switchInterval = 1000;
 window.jQuery = window.$ = require('jquery');
 
 $(document).ready(function() {
-    startSlide()
+    //startSlide()
 });
 
 function startSlide(){

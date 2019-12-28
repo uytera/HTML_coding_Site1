@@ -1,6 +1,8 @@
 include ../../../ui_kit/buttons/default-button.pug
 form.news-form#news-from-id(action="")
-    textarea#text-area(name="news-text-area", cols="30", rows="10", placeholder = "Введите информацию в текстовое поле")
+    div.scrollbar
+    textarea#text-area(name="news-text-area", cols="30", rows="10", placeholder = "Введите информацию в текстовое поле", maxlength="150")
+    div.symbols Символов 0/150
     br
     input#image-select(type="file")
     .image-select-label

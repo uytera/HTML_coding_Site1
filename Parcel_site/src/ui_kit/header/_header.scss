@@ -2,6 +2,9 @@
 @import "../icons/company_logo/company-logo";
 
 .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 98%;
     margin: 27px 1%;
     height: 52px;
@@ -42,7 +45,30 @@
     font-family: Proxima Nova;
     font-size: 13px;
     line-height: 21px;
-    width: 170px;
+    max-width: 180px;
     margin: 0px 14px;
     color: #A9C5E0;
+}
+
+@media all and (max-width: 950px){
+    .header-element:nth-child(1){
+        display: flex;
+        width: 70%;
+        text-align: left;
+    }
+    .header-element:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+        align-self: flex-start;
+        .header-button{
+            margin-left: auto;
+        }
+        .header-text{
+            text-align: right;
+            margin-top: 32px;
+            margin-right: 0px !important;
+            order: 99;
+        }
+    }
 }

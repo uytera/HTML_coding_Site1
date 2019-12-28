@@ -10933,8 +10933,7 @@ return jQuery;
 var slideInterval = 3000;
 var switchInterval = 1000;
 window.jQuery = window.$ = require('jquery');
-$(document).ready(function () {
-  startSlide();
+$(document).ready(function () {//startSlide()
 });
 
 function startSlide() {
@@ -11045,7 +11044,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54825" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55871" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

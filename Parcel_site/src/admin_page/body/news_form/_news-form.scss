@@ -8,13 +8,34 @@
         color: red;
     }
 
+    .symbols{
+        width: 770px;
+        height: 20px;
+        text-align: right;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #D0C9D6;
+    }
+
     textarea{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
         width: 770px;
         height: 144px;
         border: 1px solid #23415E;
         border-radius: 6px;
         padding: 22px 16px;
         resize: none;
+        overflow: hidden;
+    }
+
+    .scrollbar {
+        height: 10px;
+        overflow: auto;
     }
 
     input[type="file"]{
@@ -33,7 +54,7 @@
     }
 
     .image-select-label{
-        margin-top: 30px;
+        margin-top: 13px;
         vertical-align: middle;
         display: flex;
         align-items: center;
@@ -82,5 +103,11 @@
             margin-left: 170px;
             display: none;
         }
+    }
+}
+
+@media all and (max-width: 768px){
+    .content-img{
+        display: none;
     }
 }

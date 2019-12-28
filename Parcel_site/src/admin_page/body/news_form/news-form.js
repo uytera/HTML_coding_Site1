@@ -25,6 +25,19 @@ document.querySelector('#news-from-id').addEventListener('submit', (e) => {
     }
 });
 
+const scrollbar = $('.scrollbar'),
+content = $('#text-area');
+
+scrollbar.width(content.height()).find('div').width(content.get(0).scrollHeight);
+
+scrollbar.on('scroll', function(e) {
+  content.scrollTop($(this).scrollLeft());
+});
+
+document.querySelector('#text-area').addEventListener("input", (e) => {
+    $('.symbols').text("Символов " + e.target.value.length + "/150");
+});
+
 document.querySelector('.image-select-label__cancel').addEventListener("click", (e) => {
     $('.image-select-label__hidden-form-elements').css('display', 'none');
     $('#image-select').val('');

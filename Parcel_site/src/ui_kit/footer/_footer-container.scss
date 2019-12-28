@@ -36,3 +36,38 @@ footer {
         }     
     }
 }
+@media all and (max-width: 1300px){
+    .empty{
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 900px){
+    
+    .light-footer{
+        margin-top: 96px !important;
+    }
+    .footer-box-img{
+        margin-right: 130px !important;
+    }
+}
+
+@media all and (max-width: 680px){
+    .footer-container{
+        display: flex;
+        justify-content: row;
+        flex-wrap: wrap;
+    }
+    .footer-box-img{
+       display: flex;
+       margin-bottom: 64px;
+       align-items: flex-start;
+       width: 100%;
+    }
+    .standart-footer{
+        width: 40%;
+    }
+    .light-footer{
+        margin-top: 64px !important;
+    }
+}

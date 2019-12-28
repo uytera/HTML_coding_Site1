@@ -10955,6 +10955,15 @@ document.querySelector('#news-from-id').addEventListener('submit', function (e) 
     $('.image-select-label__hidden-alert').css('display', 'block');
   }
 });
+var scrollbar = $('.scrollbar'),
+    content = $('#text-area');
+scrollbar.width(content.height()).find('div').width(content.get(0).scrollHeight);
+scrollbar.on('scroll', function (e) {
+  content.scrollTop($(this).scrollLeft());
+});
+document.querySelector('#text-area').addEventListener("input", function (e) {
+  $('.symbols').text("Символов " + e.target.value.length + "/150");
+});
 document.querySelector('.image-select-label__cancel').addEventListener("click", function (e) {
   $('.image-select-label__hidden-form-elements').css('display', 'none');
   $('#image-select').val('');
@@ -11004,7 +11013,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54825" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55871" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
