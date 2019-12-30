@@ -10929,28 +10929,47 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js"}],"landing-page/body/registration-form/registration-form.js":[function(require,module,exports) {
+},{"process":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js"}],"admin_page/body.js":[function(require,module,exports) {
 window.jQuery = window.$ = require('jquery');
 $(document).ready(function () {
-  document.querySelector('.reg-form__cancel').addEventListener("click", function (e) {
-    $('.reg-consturction').css('display', 'none');
-  });
-  document.querySelector('.header-button').addEventListener("click", function (e) {
-    $('.reg-consturction').css('display', 'block');
-  });
-  document.querySelector('.reg-form').addEventListener('submit', function (e) {
-    if ($('.reg-form__login').val() == '') {
-      e.preventDefault();
-      $('.reg-form__login').attr('placeholder', 'Введите логин');
-      $('.reg-form__login').addClass('alert');
-    }
+  massOfButtons = document.getElementsByClassName('.default-button');
+  var _iteratorNormalCompletion = true;
+  var _didIteratorError = false;
+  var _iteratorError = undefined;
 
-    if ($('.reg-form__password').val() == '') {
-      e.preventDefault();
-      $('.reg-form__password').attr('placeholder', 'Введите пароль');
-      $('.reg-form__password').addClass('alert');
+  try {
+    var _loop = function _loop() {
+      var item = _step.value;
+      item.addEventListener("mouseup", function (e) {
+        pushed_day.classList.remove("pushed-down");
+        item.classList.add("pushed-up");
+        pushed_day = item;
+      });
+      item.addEventListener("mousedown", function (e) {
+        pushed_day.classList.remove("pushed-up");
+        pushed_day.classList.remove("pushed-down");
+        item.classList.add("pushed-down");
+        pushed_day = item;
+      });
+    };
+
+    for (var _iterator = massOfButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+      _loop();
     }
-  });
+  } catch (err) {
+    _didIteratorError = true;
+    _iteratorError = err;
+  } finally {
+    try {
+      if (!_iteratorNormalCompletion && _iterator.return != null) {
+        _iterator.return();
+      }
+    } finally {
+      if (_didIteratorError) {
+        throw _iteratorError;
+      }
+    }
+  }
 });
 },{"jquery":"../node_modules/jquery/dist/jquery.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -11156,5 +11175,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","landing-page/body/registration-form/registration-form.js"], null)
-//# sourceMappingURL=/registration-form.0f6656a2.js.map
+},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","admin_page/body.js"], null)
+//# sourceMappingURL=/body.c34bf8f4.js.map
