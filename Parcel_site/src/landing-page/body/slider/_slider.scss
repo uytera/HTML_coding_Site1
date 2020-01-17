@@ -71,22 +71,6 @@
         }
     }
 
-    .header-element:nth-child(1){
-        width: 50% !important;
-        .header-separator{
-            display: none;
-        }
-        .header-text{
-            display: none;
-        }
-    }
-    .header-element:nth-child(2){
-        width: 50% !important;
-        .header-text{
-            display: none;
-        }
-    }
-
     .slider-button{
         display: block;
         width: 100% !important;

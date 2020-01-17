@@ -24,6 +24,19 @@
     } 
 }
 
+@media all and (max-width: 1200px){
+
+    .step:nth-child(1){
+        margin-top: 146px;
+    }
+
+    .step{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
 @media all and (max-width: 680px){
 
     .step:nth-child(1){
@@ -31,7 +44,8 @@
     }
 
     .step{
-        margin-left: 10px;
-        width: 345px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
 }

@@ -106,8 +106,26 @@
     }
 }
 
-@media all and (max-width: 768px){
-    .content-img{
-        display: none;
+
+@media all and (max-width: 950px){
+    #text-area{
+        width: 100%;
+    }
+
+    .symbols{
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width: 375px){
+    .image-select-label{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .image-select-label__avatar{
+        margin-left: 0px !important;
+    }
+    .image-select-label__hidden-alert{
+        margin-left: 0px !important;
     }
 }

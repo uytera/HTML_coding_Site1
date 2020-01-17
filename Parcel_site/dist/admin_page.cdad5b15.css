@@ -107,9 +107,27 @@
   display: none;
 }
 
-@media all and (max-width: 768px) {
-  .content-img {
-    display: none;
+@media all and (max-width: 950px) {
+  #text-area {
+    width: 100%;
+  }
+
+  .symbols {
+    width: 100% !important;
+  }
+}
+@media all and (max-width: 375px) {
+  .image-select-label {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .image-select-label__avatar {
+    margin-left: 0px !important;
+  }
+
+  .image-select-label__hidden-alert {
+    margin-left: 0px !important;
   }
 }
 .default-button {
@@ -181,7 +199,7 @@
 @media all and (max-width: 950px) {
   .header-element:nth-child(1) {
     display: flex;
-    width: 70%;
+    width: 75%;
     text-align: left;
   }
 
@@ -199,6 +217,27 @@
     margin-top: 32px;
     margin-right: 0px !important;
     order: 99;
+  }
+}
+@media all and (max-width: 680px) {
+  .header-element:nth-child(1) {
+    width: 46% !important;
+  }
+  .header-element:nth-child(1) .header-img {
+    margin-right: 0px;
+  }
+  .header-element:nth-child(1) .header-separator {
+    display: none;
+  }
+  .header-element:nth-child(1) .header-text {
+    display: none;
+  }
+
+  .header-element:nth-child(2) {
+    width: 50% !important;
+  }
+  .header-element:nth-child(2) .header-text {
+    display: none;
   }
 }
 .footer-box-text {
@@ -346,6 +385,13 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 74px;
+}
+
+@media all and (max-width: 950px) {
+  .main {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 /*# sourceMappingURL=/admin_page.cdad5b15.css.map */
