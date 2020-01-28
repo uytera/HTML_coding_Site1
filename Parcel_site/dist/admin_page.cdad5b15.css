@@ -196,29 +196,10 @@
   color: #A9C5E0;
 }
 
-@media all and (max-width: 950px) {
-  .header-element:nth-child(1) {
-    display: flex;
-    width: 75%;
-    text-align: left;
-  }
-
-  .header-element:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    align-self: flex-start;
-  }
-  .header-element:nth-child(2) .header-button {
-    margin-left: auto;
-  }
-  .header-element:nth-child(2) .header-text {
-    text-align: right;
-    margin-top: 32px;
-    margin-right: 0px !important;
-    order: 99;
-  }
+.header-element:nth-child(2) .header-text {
+  margin-right: 60px;
 }
+
 @media all and (max-width: 680px) {
   .header-element:nth-child(1) {
     width: 46% !important;
@@ -391,6 +372,15 @@ h1 {
   .main {
     margin-left: 15px;
     margin-right: 15px;
+  }
+}
+@media all and (max-width: 950px) {
+  .header-element:nth-child(2) .header-text {
+    display: none;
+  }
+
+  .header-separator {
+    display: none;
   }
 }
 

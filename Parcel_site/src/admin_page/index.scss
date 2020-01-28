@@ -48,3 +48,14 @@ h1{
         margin-right: 15px;
     }
 }
+
+@media all and (max-width: 950px){
+    .header-element:nth-child(2){
+        .header-text{
+            display: none;
+        }  
+    }
+    .header-separator{
+        display: none;
+    }
+}

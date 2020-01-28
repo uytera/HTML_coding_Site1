@@ -1,9 +1,10 @@
 var slideInterval = 3000;
 var switchInterval = 1000;
 window.jQuery = window.$ = require('jquery');
+require("../../../util/JQuerry/JQuerryColour");
 
 $(document).ready(function() {
-    //startSlide()
+    startSlide()
 });
 
 function startSlide(){
